@@ -38,7 +38,7 @@ class ViewController: UIViewController {
   
   @IBAction func onStart() {
     
-    if UIImagePickerController.isSourceTypeAvailable(.Camera){
+    if UIImagePickerController.isSourceTypeAvailable(.PhotoLibrary){
       
       imagePickerViewController = UIImagePickerController()
       imagePickerViewController.delegate = self
